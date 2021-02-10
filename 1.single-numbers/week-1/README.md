@@ -1,3 +1,3 @@
 ## Nothing but a Number
 #### Week 1
-submited
+Use ReadMe files as a note for what is in the folder
