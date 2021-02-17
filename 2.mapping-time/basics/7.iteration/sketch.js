@@ -39,8 +39,8 @@ function setup() {
 
   fill('red')
   translate(100, 50)
-  circle(0, 0, radius)
-  circle(0, spacing, radius)
+  circle(0, 0*spacing, radius)
+  circle(0, 1*spacing, radius)
   circle(0, 2*spacing, radius)
   circle(0, 3*spacing, radius)
   circle(0, 4*spacing, radius)
@@ -60,14 +60,23 @@ function setup() {
 
   fill('limegreen')
   translate(125, 0)
+  // less common way to loop short hands, BUT a little less complicated
+  // using the _. or lodash. library
+  //with times you tell it how many times you go through, then you use the special syntax that follows in the {} brackets
+  //the => creates a standalone functions within
   _.times(6, i => {
     circle(0, i*spacing, radius)
   })
 
   pop()
 
+//collection value
+//collect data using arrays
   translate(100, 400)
+  //creates and array (using the [] brackets) and brings it into a variable
+  //arrays are handy because the arrray itself is an object that knows how to loop over itself––it can contain data and can access it
   var xPositions = [0, 5, 10, 20, 40, 80, 160, 320, 640]
+    //(x,y) x = order value, y = actual value
   xPositions.forEach( (x, i) => {
     stroke(255 - 30*i)
     line(x, 0, x, 150)

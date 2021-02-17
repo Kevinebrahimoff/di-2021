@@ -19,7 +19,7 @@ function setup() {
 
   // draw three shapes
   square(100, 200, 40) // (x, y, size)
-  circle(200, 200, 40) // (x, y, radius)
+  circle(200, 200, 40) // (x, y, diameter)
   arc(300, 200, 100, 100, -PI, -HALF_PI) // (x, y, w, h, start, stop)
 }
 

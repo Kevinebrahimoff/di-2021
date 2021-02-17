@@ -21,6 +21,7 @@ function setup() {
   line(x, y+20, x+w, y+20);
   line(x, y+30, x+w, y+30);
 
+
   // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
   // Change the values in the variables
@@ -35,7 +36,7 @@ function setup() {
   line(x, y+20, x+w, y+20);
   line(x, y+30, x+w, y+30);
 
-  // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  // // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
   // Change the variables again in the exact same way (but to different effect)
   x = x + w;
