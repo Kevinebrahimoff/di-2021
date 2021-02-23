@@ -30,3 +30,20 @@ green = minutes
 blue = seconds
 
 Here two clocks are stacked onto of each other. The clock starts at the top and does a S shape on the clock forming an 8. The cubes rotate upon the center of the first circle until it reaches 6 where it will continue onto the center rotation of the bottom circle.
+
+
+Calendar:
+
+Calendar 1: The date and month are unhidden and revealed.
+
+Calendar 2:
+
+	The colors: the color band is divided into 12 shades between the orange (January) and Navy (December).
+
+	The Day: The position of the sqaure represents the day of the month. The day marker is centered with the day (which is calculated by dividing the width of the shape into X days (depending on month)).
+
+
+Calendar 3:
+
+	The months: each line represents a month, starting with january on the top, and tyhe bold line is the current month.
+	The days: the days are depicted by the placement of the circle
