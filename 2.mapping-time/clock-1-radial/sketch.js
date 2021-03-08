@@ -26,7 +26,7 @@
 // function draw() {
 
 //   // check the clock for the current time and unpack some of its fields to generate a time-string
-//   //var now = clock();
+  //var now = clock();
 
 //   // set the background to 'white' – you can also specify colors use integers, hex-color strings and more.
 //   // note that setting the background also clears the canvas from our previous round of drawing
@@ -69,13 +69,15 @@ function setup() {
 
 function draw() {
   background(220);
-
+  var now = clock()
   // define the hour we're drawing an arc for. In your code
   // you should just use now.hour (or now.min or now.sec)
   // but in this example try resetting this value by hand
-  var hour = 13
-  var minutes = 15
-  var seconds = 35
+  //
+
+  var hour = now.hour
+  var minutes = now.min
+  var seconds = now.sec
   
   // geometrically 0° is considered to mean 'the right side'
   // rather than 'the top' of a circle, so we'll work in the

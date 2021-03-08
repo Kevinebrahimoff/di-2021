@@ -16,43 +16,45 @@ function setup(){
 
   var values = [0,1,2,3,4];
   var booleanValues = [false, true, false, false];
-  var textValues = ["red", "blue", "white"];
+  var textValues = ["red", "blue", "white", "orange"];
   var charValues = "polymorphism☃";
 
-  print('VALUES:', values);
-  for (var i=0; i<values.length; i++){
-    print(values[i]);
-  }
+  print(textValues.length)
 
-  print('BOOL VALUES:', booleanValues);
-  for (var i=0; i<booleanValues.length; i++){
-    print(booleanValues[i]);
-  }
+  // print('VALUES:', values);
+  // for (var i=0; i<values.length; i++){
+  //   print(values[i]);
+  // }
 
-  print('TEXT VALUES:', textValues);
-  for (var i=0; i<textValues.length; i++){
-    print(textValues[i]);
-  }
+  // print('BOOL VALUES:', booleanValues);
+  // for (var i=0; i<booleanValues.length; i++){
+  //   print(booleanValues[i]);
+  // }
 
-  print('CHAR VALUES:', charValues);
-  for (var i=0; i<charValues.length; i++){
-    print(charValues[i]);
-  }
+  // print('TEXT VALUES:', textValues);
+  // for (var i=0; i<textValues.length; i++){
+  //   print(textValues[i]);
+  // }
 
-  print('Iterating w/ Array.forEach():')
-  textValues.forEach( val => {
-    print(val);
-  })
+  // print('CHAR VALUES:', charValues);
+  // for (var i=0; i<charValues.length; i++){
+  //   print(charValues[i]);
+  // }
 
-  print('Iterating w/ array values & indices')
-  textValues.forEach( (val, i) => {
-    print(i, val);
-  })
+  // print('Iterating w/ Array.forEach():')
+  // textValues.forEach( val => {
+  //   print(val);
+  // })
 
-  print('Iterating using _.times and length:')
-  _.times(textValues.length, i => {
-    print(i, textValues[i]);
-  })
+  // print('Iterating w/ array values & indices')
+  // textValues.forEach( (val, i) => {
+  //   print(i, val);
+  // })
+
+  // print('Iterating using _.times and length:')
+  // _.times(textValues.length, i => {
+  //   print(i, textValues[i]);
+  // })
 
 
 

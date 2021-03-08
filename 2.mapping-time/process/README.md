@@ -47,3 +47,30 @@ Calendar 3:
 
 	The months: each line represents a month, starting with january on the top, and tyhe bold line is the current month.
 	The days: the days are depicted by the placement of the circle
+
+
+
+Hyberid Sketches:
+
+Sketch 1: 1:15:16 December 5.
+
+For this clock I create a dot grid 12 x 5. All inactive dots are small with a stroke. Hours are depicted by which colummn has enlarged dots. Minutes is depicted by a dot being filled with no stroke. Seconds are depicted with a stroke around wher ethe large dots would be (from the hours). All dots that have  been passed remain in the active state.
+
+For the calendar: The months grid is created by a division of 12 squares with a stroke–the active month becomes a stroked circle with no fill. Days of the month are shown with dots with a stroke and no fill–active days get filled dots. Seasons are depicted by the color of the month (fall: organge; winter: blue; spring: green; summer: yellow).
+
+Sketch 2:
+
+This clock and cal is created with a base grid of 12 x 12.
+
+The clock takes up 5 X 12 on the left side and the calendar uses the other 7 x 12 on the right side.
+
+Hours is depicted by an added stroke to the given row. Seconds are shown through a shruken square. Minutes is depicted with a fill.
+
+Day of the week is depicted by a stroke on the right row. month is depicted by row. season is depicted by color of filled box
+
+
+Sketch 3:
+
+This sketch lays on an x/y plotting graph. AM time is represented by circles and PM time is represented in triangles. For both of these shapes, minutes is depicted in the largest sized shape with a stroke and no fill. Seconds is depicted in the smalled shape with no stroke but a fill. Hours are depicted using the smallest shape with a stroke and no fill.
+
+Days are depicted on the Y axis: the seconds, minutes, and hour shapes are placed vertically depending on the day (starting with monday on the top and sunday on the bottom). Months are depicted as a sqaure with a stroke and no fill, vertically centered (left is january and the right is december).
